@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EmotionsAnalyst</string>
+
+    <string name="analyze_photo">Analyze photo</string>
+    <string name="analyze_video">Analyze video</string>
+    <string name="analyze">Analyze</string>
 </resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/actAnalystImage_vContainer"
+    android:orientation="vertical">
+
+    <include layout="@layout/actionbar_back" />
+
+    <ImageView
+        android:id="@+id/actAnalystImage_ivAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop" />
+
+    <FrameLayout
+        android:id="@+id/actAnalystImage_frmAnalyze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/shape_radius_blue_20"
+            android:gravity="center"
+            android:text="@string/analyze"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </FrameLayout>
+
+</LinearLayout>
