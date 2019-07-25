@@ -69,8 +69,8 @@ public class FaceDetection {
                                     false,        // returnFaceLandmarks
                                     // returnFaceAttributes:
                                     new FaceServiceClient.FaceAttributeType[] {
-                                            FaceServiceClient.FaceAttributeType.Age,
-                                            FaceServiceClient.FaceAttributeType.Gender }
+                                            FaceServiceClient.FaceAttributeType.Emotion
+                                    }
 
                             );
                             if (result == null){

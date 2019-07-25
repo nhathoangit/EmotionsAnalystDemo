@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@color/white"
-        android:scaleType="centerCrop" />
+        android:scaleType="fitXY" />
 
     <FrameLayout
         android:id="@+id/actAnalystImage_frmAnalyze"
@@ -34,5 +34,11 @@
             android:textColor="@color/white"
             android:textSize="12sp" />
     </FrameLayout>
+
+    <com.ultramegasoft.radarchart.RadarView
+        android:id="@+id/actAnalystImage_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
